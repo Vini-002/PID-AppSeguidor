@@ -25,7 +25,7 @@ class lap{
     time: number;
 }
 
-lap --> circuit
+lap "0..n" --> "1" circuit
 
 class circuit{
     id: number;
