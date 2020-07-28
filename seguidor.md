@@ -21,7 +21,15 @@ trecho "1..n" --> "1" lap
 
 class lap{
     id: number;
+    madeAt: Date;
     time: number;
+}
+
+lap --> circuit
+
+class circuit{
+    id: number;
+    name: string;
 }
 
 ```
